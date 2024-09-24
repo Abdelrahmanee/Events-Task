@@ -31,16 +31,12 @@ Run the following command to install the necessary dependencies:
 
 ```bash
 npm install
-<<<<<<< HEAD
 ```
-=======
 
->>>>>>> 0c4fa8228b8e6df9e7bc0901394b7bdbe7470884
 
 ### Environment Setup
 
 #### 1. MongoDB Configuration
-<<<<<<< HEAD
 You need a MongoDB instance running locally or a cloud-hosted MongoDB service (such as MongoDB Atlas).
 
 #### Default Local Configuration
@@ -51,7 +47,7 @@ mongodb://localhost:27017/yourdatabase
 ```
 
 #### Custom Configuration
-=======
+
 You need a MongoDB instance running locally or a cloud-hosted MongoDB service (like MongoDB Atlas).
 
 ##### Default Local Configuration:
@@ -119,7 +115,7 @@ If you prefer using MongoDB Atlas (cloud-hosted), follow these steps:
 
 ## API Documentation
 
-=======
+
 
 
 # Other configurations (like API keys, email service, etc.)
@@ -158,7 +154,7 @@ Alternatively, import the Postman collection to explore the available API endpoi
 # Project Name
 
 ## API Documentation
->>>>>>> 0c4fa8228b8e6df9e7bc0901394b7bdbe7470884
+
 API documentation is available using tools like Postman or Swagger.
 
 You can access the API documentation at: [API Documentation Link](https://documenter.getpostman.com/view/31106841/2sAXqwXeqH) (if using Swagger). Alternatively, import the Postman collection to explore the available API endpoints.
@@ -212,8 +208,5 @@ The folder structure is designed to organize the project logically and modularly
 <<<<<<< HEAD
 ```
 
-You can add more details as necessary to the documentation.
-=======
 
 
->>>>>>> 0c4fa8228b8e6df9e7bc0901394b7bdbe7470884
