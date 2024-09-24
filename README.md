@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0c4fa8228b8e6df9e7bc0901394b7bdbe7470884
 # Events-app
 
 A brief description or tagline for your project.
@@ -31,11 +34,16 @@ Run the following command to install the necessary dependencies:
 
 ```bash
 npm install
+<<<<<<< HEAD
 ```
+=======
+
+>>>>>>> 0c4fa8228b8e6df9e7bc0901394b7bdbe7470884
 
 ### Environment Setup
 
 #### 1. MongoDB Configuration
+<<<<<<< HEAD
 You need a MongoDB instance running locally or a cloud-hosted MongoDB service (such as MongoDB Atlas).
 
 #### Default Local Configuration
@@ -46,6 +54,16 @@ mongodb://localhost:27017/yourdatabase
 ```
 
 #### Custom Configuration
+=======
+You need a MongoDB instance running locally or a cloud-hosted MongoDB service (like MongoDB Atlas).
+
+##### Default Local Configuration:
+The application is pre-configured to connect to MongoDB running locally at:
+Custom Configuration: If you want to customize the MongoDB URI, create a .env file in the project root and add the following: 
+
+
+##### Custom Configuration:
+>>>>>>> 0c4fa8228b8e6df9e7bc0901394b7bdbe7470884
 If you want to customize the MongoDB URI, create a `.env` file in the project root and add the following: 
 
 ```bash
@@ -64,6 +82,7 @@ MONGO_URI=mongodb://localhost:27017/yourdatabase
 JWT_SECRET=your-secret-key
 
 # Other configurations (like API keys, email service, etc.)
+<<<<<<< HEAD
 ```
 
 ### Running the Application
@@ -104,6 +123,46 @@ If you prefer using MongoDB Atlas (cloud-hosted), follow these steps:
 
 ## API Documentation
 
+=======
+
+
+# Other configurations (like API keys, email service, etc.)
+Running the Application
+1. Development Mode
+To run the application in development mode with Nodemon (auto-restarts the server on changes):
+     npm start-dev
+3. Production Mode
+To run the application in production mode:
+     npm start
+
+MongoDB Setup
+Local MongoDB
+To run MongoDB locally, use the following commands:
+
+Start the MongoDB service:
+    mongod
+2.Access the MongoDB shell to verify the connection:
+
+MongoDB Atlas (Cloud)
+If you prefer using MongoDB Atlas (cloud-hosted), follow these steps:
+
+Create an account on MongoDB Atlas.
+
+Create a new cluster and configure it.
+
+Get your MongoDB URI and replace the MONGO_URI value in your .env file:
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/yourdatabase?retryWrites=true&w=majority
+
+API Documentation
+API documentation is available using tools like Postman or Swagger.
+
+You can access the API documentation at: https://documenter.getpostman.com/view/31106841/2sAXqwXeqH (if using Swagger).
+Alternatively, import the Postman collection to explore the available API endpoints.
+
+# Project Name
+
+## API Documentation
+>>>>>>> 0c4fa8228b8e6df9e7bc0901394b7bdbe7470884
 API documentation is available using tools like Postman or Swagger.
 
 You can access the API documentation at: [API Documentation Link](https://documenter.getpostman.com/view/31106841/2sA3rwNuae) (if using Swagger). Alternatively, import the Postman collection to explore the available API endpoints.
@@ -154,6 +213,11 @@ The folder structure is designed to organize the project logically and modularly
 ├── index.js               # Main entry point of the application
 ├── package.json           # Project configuration, scripts, and dependencies
 └── package-lock.json      # Locked versions of dependencies for consistency
+<<<<<<< HEAD
 ```
 
 You can add more details as necessary to the documentation.
+=======
+
+
+>>>>>>> 0c4fa8228b8e6df9e7bc0901394b7bdbe7470884
