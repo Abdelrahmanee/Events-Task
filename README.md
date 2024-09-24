@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> 0c4fa8228b8e6df9e7bc0901394b7bdbe7470884
 # Events-app
 
 A brief description or tagline for your project.
@@ -63,7 +60,6 @@ Custom Configuration: If you want to customize the MongoDB URI, create a .env fi
 
 
 ##### Custom Configuration:
->>>>>>> 0c4fa8228b8e6df9e7bc0901394b7bdbe7470884
 If you want to customize the MongoDB URI, create a `.env` file in the project root and add the following: 
 
 ```bash
@@ -165,7 +161,7 @@ Alternatively, import the Postman collection to explore the available API endpoi
 >>>>>>> 0c4fa8228b8e6df9e7bc0901394b7bdbe7470884
 API documentation is available using tools like Postman or Swagger.
 
-You can access the API documentation at: [API Documentation Link](https://documenter.getpostman.com/view/31106841/2sA3rwNuae) (if using Swagger). Alternatively, import the Postman collection to explore the available API endpoints.
+You can access the API documentation at: [API Documentation Link](https://documenter.getpostman.com/view/31106841/2sAXqwXeqH) (if using Swagger). Alternatively, import the Postman collection to explore the available API endpoints.
 
 ### Example API Endpoints
 Here are some examples of the API endpoints exposed by the server:
